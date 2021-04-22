@@ -25,3 +25,10 @@ server-*.tar
 
 # Temporary files for e.g. tests
 /tmp
+
+# Rescript App
+/app/node_modules
+.DS_Store
+/app/lib/
+/app/.bsb.lock
+/app/.merlin

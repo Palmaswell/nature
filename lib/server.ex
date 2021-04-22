@@ -7,7 +7,7 @@ defmodule Server do
 
   get "/" do
     conn = put_resp_content_type(conn, "text/html")
-    send_file(conn, 200, "priv/static/index.html")
+    send_file(conn, 200, "app/static/index.html")
   end
 
   match _ do

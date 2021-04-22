@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "The Nature Of Code Exercises",
+  "main": "index.js",
+  "author": "Mauricio Palma",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "bsb -make-world -clean-world",
+    "start": "bsb -make-world -clean-world -w"
+  },
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "bs-webapi": "^0.19.1"
+  }
+}
